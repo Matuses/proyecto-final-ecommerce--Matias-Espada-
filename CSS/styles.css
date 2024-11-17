@@ -26,3 +26,36 @@ footer{
     color: white;
     background-color: rgb(55,54, 54);
 }
+/* menu */
+.header-logo {
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul{
+    list-style: none;
+}
+
+.header-menubar li{
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0.5rem 0;
+}
+.header-menubar a {
+    text-decoration: none;
+    color: white;
+}
+.header-menubar a:hover {
+    color: rgb(0, 254, 66);
+
+}
