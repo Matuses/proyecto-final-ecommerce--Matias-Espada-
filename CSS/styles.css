@@ -15,6 +15,7 @@ body, header, main, footer {
     min-width: 400px;
 }
 header{
+    color: white;
     background-color: rgb(55,54, 54);
     box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
 }
@@ -22,5 +23,6 @@ main {
     min-height: 200px;
 }
 footer{
+    color: white;
     background-color: rgb(55,54, 54);
 }
