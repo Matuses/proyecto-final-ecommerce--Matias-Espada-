@@ -9,15 +9,14 @@ html {
 }
 
 body, header, main, footer {
-    border: 3px red solid;
     min-height: 50px;
     margin: 0.5rem;
-    min-width: 400px;
+    min-width: 200px;
 }
 header{
     color: white;
     background-color: rgb(55,54, 54);
-    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+    box-shadow: 0 0 20px rgba(12, 11, 11, 0.8);
 }
 main {
     min-height: 200px;
@@ -25,6 +24,7 @@ main {
 footer{
     color: white;
     background-color: rgb(55,54, 54);
+    box-shadow: 0 0 20px rgba(12, 11, 11, 0.8);
 }
 /* menu */
 .header-logo {
