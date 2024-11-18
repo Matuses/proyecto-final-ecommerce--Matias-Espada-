@@ -14,6 +14,9 @@ body, header, main, footer {
     min-width: 200px;
 }
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: rgb(55,54, 54);
     box-shadow: 0 0 20px rgba(12, 11, 11, 0.8);
@@ -22,11 +25,15 @@ main {
     min-height: 200px;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
     background-color: rgb(55,54, 54);
     box-shadow: 0 0 20px rgba(12, 11, 11, 0.8);
 }
-/* menu */
+/* menu y Logo*/
 .header-logo {
     width: auto;
     display: inline-block;
@@ -40,11 +47,9 @@ footer{
     display: inline-block;
     margin: 0.5rem 0 0.5rem 1rem;
 }
-
 .header-menubar ul{
     list-style: none;
 }
-
 .header-menubar li{
     float: left;
     font-weight: 700;
@@ -57,22 +62,18 @@ footer{
 }
 .header-menubar a:hover {
     color: rgb(0, 254, 66);
-
 }
 /*Pie de pagina */
-.pie-pagina .grupo-1 h2{
-    text-align: center;
-}
-.pie-pagina .grupo-1 .box{
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pie-pagina .grupo-1 .redes-sociales {
+.redes-sociales {
     width: 200px;
     height: 45px;
 }
-.pie-pagina .grupo-1 .box .redes-sociales a{
+.redes-sociales a{
     margin: auto;
     display:inline-block;
     text-decoration: none;
@@ -83,9 +84,6 @@ footer{
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .redes-sociales a:hover{
+.redes-sociales a:hover{
     color: rgb(0, 254, 66);
-}
-.pie-pagina .grupo-2{
-    text-align: center;
 }
