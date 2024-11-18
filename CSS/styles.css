@@ -59,9 +59,13 @@ footer{
     color: rgb(0, 254, 66);
 
 }
-/*Pie de pagina */ 
-.pie-pagina .redes-sociales a{
-    display: inline-block;
+/*Pie de pagina */
+.pie-pagina .grupo-1 .box h2{
+    text-align: center;
+}
+.pie-pagina .grupo-1 .box .redes-sociales a{
+    margin: auto;
+    display:inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
@@ -70,6 +74,9 @@ footer{
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .redes-sociales a:hover{
+.pie-pagina .grupo-1 .redes-sociales a:hover{
     color: rgb(0, 254, 66);
+}
+.pie-pagina .grupo-2{
+    text-align: center;
 }
