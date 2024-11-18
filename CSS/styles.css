@@ -60,8 +60,17 @@ footer{
 
 }
 /*Pie de pagina */
-.pie-pagina .grupo-1 .box h2{
+.pie-pagina .grupo-1 h2{
     text-align: center;
+}
+.pie-pagina .grupo-1 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .redes-sociales {
+    width: 200px;
+    height: 45px;
 }
 .pie-pagina .grupo-1 .box .redes-sociales a{
     margin: auto;
